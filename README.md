@@ -90,7 +90,7 @@ git clone https://github.com/isrcastroes-oss/Proyecto-final
 ```
 
 ### 2️ Configurar la cadena de conexión
-En el archivo appsettings.json:
+En el archivo appsettings.Development.json:
 ```json
 "ConnectionStrings": {
   "Default": "Host=TU_HOST;Port=5432;Database=postgres;Username=postgres;Password=TU_PASSWORD;SSL Mode=Require;Trust Server Certificate=true;"
