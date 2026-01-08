@@ -1,6 +1,6 @@
 # Proyecto final API
 
-Servicio Web REST desarrollado con **.NET 9** y **Entity Framework Core 9**, utilizando **PostgreSQL (Supabase)** como base de datos.
+Servicio Web REST desarrollado con **.NET 8** y **Entity Framework Core 9**, utilizando **PostgreSQL (Supabase)** como base de datos.
 
 El proyecto aplica **arquitectura en capas**, **principios de Programación Orientada a Objetos (POO)**, **validaciones de datos** y **documentación interactiva con Swagger**.
 
