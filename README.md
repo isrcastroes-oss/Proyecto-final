@@ -99,6 +99,7 @@ En el archivo appsettings.Development.json:
 
 ### 3️ Ejecutar el proyecto
 ```bash
+cd Proyecto-final
 dotnet run --project MyProject.Api
 ```
 
