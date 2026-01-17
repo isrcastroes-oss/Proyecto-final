@@ -99,7 +99,8 @@ En el archivo appsettings.json:
 
 ### 3️ Ejecutar el proyecto
 ```bash
-dotnet run --project MyProject.Api
+cd Icastro.Factura.Api
+dotnet run
 ```
 
 ## Uso
