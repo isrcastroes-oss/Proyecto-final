@@ -1,6 +1,6 @@
 # Proyecto final API
 
-Servicio Web REST desarrollado con **.NET 9** y **Entity Framework Core 9**, utilizando **PostgreSQL (Supabase)** como base de datos.
+Servicio Web REST desarrollado con **.NET 8** y **Entity Framework Core 9**, utilizando **PostgreSQL (Supabase)** como base de datos.
 
 El proyecto aplica **arquitectura en capas**, **principios de Programación Orientada a Objetos (POO)**, **validaciones de datos** y **documentación interactiva con Swagger**.
 
@@ -90,7 +90,7 @@ git clone https://github.com/isrcastroes-oss/Proyecto-final
 ```
 
 ### 2️ Configurar la cadena de conexión
-En el archivo appsettings.json:
+En el archivo appsettings.Development.json:
 ```json
 "ConnectionStrings": {
   "Default": "Host=TU_HOST;Port=5432;Database=postgres;Username=postgres;Password=TU_PASSWORD;SSL Mode=Require;Trust Server Certificate=true;"
@@ -99,6 +99,7 @@ En el archivo appsettings.json:
 
 ### 3️ Ejecutar el proyecto
 ```bash
+cd Proyecto-final
 dotnet run --project MyProject.Api
 ```
 
