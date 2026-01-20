@@ -10,16 +10,16 @@ El proyecto aplica **arquitectura en capas**, **principios de Programación Orie
 
 El proyecto está organizado siguiendo una arquitectura en capas:
 
-- **MyProject.Api**  
+- **Icastro.Factura.Api**  
   Controladores, configuración de la API y middlewares.
 
-- **MyProject.Application**  
+- **Icastro.Factura.Application**  
   Lógica de negocio y DTOs.
 
-- **MyProject.Domain**  
+- **Icastro.Factura.Domain**  
   Entidades del dominio e interfaces.
 
-- **MyProject.Infrastructure**  
+- **Icastro.Factura.Infrastructure**  
   DbContext, repositorios y acceso a datos con Entity Framework Core.
 
 ---
